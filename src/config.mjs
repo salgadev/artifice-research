@@ -1,12 +1,12 @@
 export const SITE = {
-  name: "Qwind",
+  name: "The Artifice",
 
   title:
-    "Qwind — Free template for Qwik + Tailwind CSS to build your new website.",
+    "Artifice: Crafting Ingenuity In Industry",
   description:
-    "Qwind is a free and ready to start template to make your website using Qwik and Tailwind CSS.",
+    "Artifice Research Consulting is focused on bringing cutting-edge research into the workplace.",
 
-  origin: "https://qwind.pages.dev",
+  origin: "https://www.theartifice.ca",
   basePathname: "/",
   trailingSlash: true,
 };

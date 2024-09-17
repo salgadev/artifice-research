@@ -2,7 +2,8 @@ import { component$ } from "@builder.io/qwik";
 import { Image } from "@unpic/qwik";
 
 const coverImage =
-  "https://images.unsplash.com/photo-1590767950092-42b8362368da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80";
+    "https://upload.wikimedia.org/wikipedia/commons/7/7b/Reussenzehn-tube-amp-4_hg.jpg";
+//  "https://images.unsplash.com/photo-1590767950092-42b8362368da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80";
 
 export default component$(() => {
   return (
@@ -13,20 +14,32 @@ export default component$(() => {
         <div class="py-12 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
           <div class="basis-1/2 text-center lg:text-left pb-10 md:pb-16 mx-auto">
             <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
-              Free template for <br class="hidden lg:block" />{" "}
-              <span class="hidden lg:inline">create a website using </span> <span class="text-[#039de1]">Qwik</span> +{" "}
-              <span class="sm:whitespace-nowrap text-[#039de1]">Tailwind CSS</span>
+            The cutting-edge is<br class="hidden lg:block" />{" "}
+              <span class="hidden lg:inline"> between </span> <span class="text-[#039de1]">Academia</span> &{" "}
+              <span class="sm:whitespace-nowrap text-[#039de1]">Industry</span>
             </h1>
             <div class="max-w-3xl mx-auto lg:max-w-none">
               <p class="text-xl text-muted mb-6 dark:text-slate-300">
-                <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">
-                  Qwind
+                <span class="font-semibold decoration-1 decoration-secondary-600 underline-offset-2">
+                  Artifice Research
                 </span>{" "}
-                is a production ready template to start your new website using <em>Qwik</em> + <em>Tailwind CSS</em>. It
-                has been designed following Best Practices, SEO, Accessibility,{" "}
+                brings state-of-the-art {" "} 
+                <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">
+                AI</span> {" "} and {" "}
+                <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">
+                 Robotics </span> 
+
+                into the workplace through collaboration, technical training and custom <em>software development</em>. 
+                Leverage emerging technologies while achieving compliance in 
+                {" "}                
                 <span class="inline md:hidden">...</span>
+                
+                <span class="underline decoration-1 decoration-secondary-600 underline-offset-2">
+                Cybersecurity </span> {" "} and {" "}
+                <span class="underline decoration-1 decoration-secondary-600 underline-offset-2">
+                 Quality Assurance </span>
                 <span class="hidden md:inline">
-                  Dark Mode, Great Page Speed, image optimization, sitemap generation and more.
+                  
                 </span>
               </p>
 
@@ -34,11 +47,11 @@ export default component$(() => {
                 <div class="flex w-full sm:w-auto">
                   <a
                     class="btn btn-primary sm:mb-0 w-full"
-                    href="https://github.com/onwidget/qwind"
+                    href="https://calendly.com/salgadev"
                     target="_blank"
                     rel="noopener"
                   >
-                    Get template
+                    Book a Meeting
                   </a>
                 </div>
                 <div class="flex w-full sm:w-auto">
