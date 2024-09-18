@@ -15,8 +15,8 @@ export default component$(() => {
           <div class="basis-1/2 text-center lg:text-left pb-10 md:pb-16 mx-auto">
             <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
             The cutting-edge is<br class="hidden lg:block" />{" "}
-              <span class="hidden lg:inline"> between </span> <span class="text-[#039de1]">Academia</span> &{" "}
-              <span class="sm:whitespace-nowrap text-[#039de1]">Industry</span>
+              <span class="hidden lg:inline"> between </span> <span class="text-accent">Academia</span> &{" "}
+              <span class="sm:whitespace-nowrap text-accent">Industry</span>
             </h1>
             <div class="max-w-3xl mx-auto lg:max-w-none">
               <p class="text-xl text-muted mb-6 dark:text-slate-300">
@@ -66,7 +66,7 @@ export default component$(() => {
               layout="constrained"
               width={493}
               height={616}
-              alt="Qwind Hero Image (Cool dog)"
+              alt="Vacuum Tubes"
               class="mx-auto lg:mr-0 w-full drop-shadow-2xl rounded-md"
               priority={true}
               breakpoints={[320, 480, 640, 768, 1024]}
