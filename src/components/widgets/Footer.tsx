@@ -2,8 +2,8 @@ import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 
 import IconTwitter from "~/components/icons/IconTwitter"
-import IconInstagram from "~/components/icons/IconInstagram"
-import IconFacebook from "~/components/icons/IconFacebook"
+//import IconInstagram from "~/components/icons/IconInstagram"
+//import IconFacebook from "~/components/icons/IconFacebook"
 import IconGithub from "~/components/icons/IconGithub"
 
 export default component$(() => {
@@ -56,8 +56,8 @@ export default component$(() => {
 
   const social = [
     { label: "Twitter", icon: IconTwitter, href: "#" },
-    { label: "Instagram", icon: IconInstagram, href: "#" },
-    { label: "Facebook", icon: IconFacebook, href: "#" },
+//    { label: "Instagram", icon: IconInstagram, href: "#" },
+//    { label: "Facebook", icon: IconFacebook, href: "#" },
     {
       label: "Github",
       icon: IconGithub,

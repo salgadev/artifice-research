@@ -6,10 +6,14 @@ const colors = require("tailwindcss/colors");
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
-    extend: {
+    extend: {      
       colors: {
-        primary: colors.purple,
-        secondary: colors.sky,
+        primary: colors.emerald,
+        secondary: colors.green,  
+        accent: {
+          'DEFAULT': '#D4AF37',
+          'dark': '#FAFAD2',
+        },        
       },
       fontFamily: {
         sans: ["'Inter Variable'", ...defaultTheme.fontFamily.sans],

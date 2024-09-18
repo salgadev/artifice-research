@@ -7,9 +7,9 @@ export default component$(() => {
         <div class="py-12 md:py-20">
           <div class="max-w-3xl mx-auto text-center p-6 rounded-md shadow-xl dark:shadow-none">
             <h2 class="text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">
-              <span class="text-[#039de1]">Qwik</span> +{" "}
+              <span class="text-accent">Qwik</span> +{" "}
               <br class="block sm:hidden" />
-              <span class="text-[#039de1] sm:whitespace-nowrap">
+              <span class="text-accent sm:whitespace-nowrap">
                 Tailwind CSS
               </span>
             </h2>
