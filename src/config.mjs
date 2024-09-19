@@ -1,10 +1,10 @@
 export const SITE = {
-  name: "The Artifice",
+  name: "Artifice DSP",
 
   title:
-    "Artifice: Crafting Ingenuity In Industry",
+    "Artifice DSP",
   description:
-    "Artifice Research Consulting is focused on bringing cutting-edge research into the workplace.",
+    "Signal Processing firm specializing in Computer Vision, Natural Language and Audio Processing.",
 
   origin: "https://www.theartifice.ca",
   basePathname: "/",

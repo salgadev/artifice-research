@@ -9,7 +9,8 @@ import Stats from "~/components/widgets/Stats";
 import CallToAction from "~/components/widgets/CallToAction";
 
 import { qwikSerialized } from "~/utils/qwikSerialized";
-
+ 
+const IconVision = qwikSerialized(() => import("../components/icons/IconVision"));
 const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
 const IconApps = qwikSerialized(() => import("../components/icons/IconApps"));
 const IconRocket = qwikSerialized(() => import("../components/icons/IconRocket"));
@@ -23,43 +24,49 @@ export default component$(() => {
     <>
       <Hero />
       <Features
-        highlight="Features"
-        title="What you get with Qwind"
-        subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
+        highlight="Expertise"
+        title="What we can craft"
+        subtitle=""
         items={[
           {
-            title: "Qwik + Tailwind CSS Integration",
+            title: "Image Recognition Models",
             description:
-              "A seamless integration between two great frameworks that offer high productivity, performance and versatility.",
-            icon: IconBrandTailwind,
+              "Streamline quality control by automatically detecting anomalies or manufacturing defects with your very own Computer Vision system.",      
+              icon: IconVision,
           },
           {
-            title: "Ready-to-use Components",
+            title: "Custom AI Solutions",
             description:
-              "Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...",
-            icon: IconApps,
+              "Tailor-made Artificial Intelligence solutions to drive business success, leveraging our expertise in computer vision, natural language processing, and audio signal processing.",      
+              icon: IconBrandTailwind,
           },
           {
-            title: "Best Practices",
+            title: "System Integrations",
             description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
+              "Our team helps integrate AI solutions with existing systems, ensuring seamless data flow and maximum efficiency.",      
+              icon: IconApps,
           },
           {
-            title: "Excellent Page Speed",
+            title: "Robotic Process Automation",
             description:
-              "Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.",
-            icon: IconRocket,
+              "We automate repetitive tasks and processes, freeing up resources for more strategic and creative work.",      
           },
           {
-            title: "Search Engine Optimization (SEO)",
+            title: "Test Automation",
             description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
-            icon: IconBrandGoogle,
+              "Our experts develop and implement automated testing solutions to ensure high-quality software and reduce testing time.",      
+              icon: IconRocket,
           },
           {
-            title: "Open to new ideas and contributions",
+            title: "Software Development",
             description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
+              "We design, develop, and deploy custom software solutions that meet your unique business needs.",
+              icon: IconBrandGoogle,
+          },
+          {
+            title: "Training and Development",
+            description:
+              "Our team provides expert instruction, course design, and workshops to help your team upskill and reskill in AI and signal processing.",      
             icon: IconBulb
           },
         ]}

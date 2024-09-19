@@ -14,32 +14,24 @@ export default component$(() => {
         <div class="py-12 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
           <div class="basis-1/2 text-center lg:text-left pb-10 md:pb-16 mx-auto">
             <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
-            The cutting-edge is<br class="hidden lg:block" />{" "}
-              <span class="hidden lg:inline"> between </span> <span class="text-accent">Academia</span> &{" "}
-              <span class="sm:whitespace-nowrap text-accent">Industry</span>
+            Cutting-edge insights. <br class="hidden lg:block" />{" "}
+              <span class="hidden lg:inline">Reach the </span> <span class="text-accent">Peak</span> of{" "}
+              <span class="sm:whitespace-nowrap text-accent">Innovation</span>
             </h1>
             <div class="max-w-3xl mx-auto lg:max-w-none">
               <p class="text-xl text-muted mb-6 dark:text-slate-300">
-                <span class="font-semibold decoration-1 decoration-secondary-600 underline-offset-2">
-                  Artifice Research
+                <span class="font-semibold underline decoration-1 decoration-secondary-600 underline-offset-2">
+                Artifice Research 
                 </span>{" "}
-                brings state-of-the-art {" "} 
+                unlocks your own <em>state-of-the-art</em> {" "} pairing your data with tailored {" "}
+                <span class="font-semibold decoration-1 decoration-secondary-600 underline-offset-2">
+                Digital Signal Processing </span> {" "} solutions. Stay ahead of the curve by crafting {" "}
                 <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">
-                AI</span> {" "} and {" "}
-                <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">
-                 Robotics </span> 
-
-                into the workplace through collaboration, technical training and custom <em>software development</em>. 
-                Leverage emerging technologies while achieving compliance in 
-                {" "}                
+                AI</span> (Computer Vision, Natural Language) or {" "}
                 <span class="inline md:hidden">...</span>
-                
                 <span class="underline decoration-1 decoration-secondary-600 underline-offset-2">
-                Cybersecurity </span> {" "} and {" "}
-                <span class="underline decoration-1 decoration-secondary-600 underline-offset-2">
-                 Quality Assurance </span>
-                <span class="hidden md:inline">
-                  
+                Test Automation</span> {" "} workflows
+                <span class="hidden md:inline">                  
                 </span>
               </p>
 
