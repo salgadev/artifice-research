@@ -10,6 +10,7 @@ import CallToAction from "~/components/widgets/CallToAction";
 
 import { qwikSerialized } from "~/utils/qwikSerialized";
 
+const IconDocument = qwikSerialized(() => import("../components/icons/IconDocument"));
 const IconCode = qwikSerialized(() => import("../components/icons/IconCode"));
 const IconLanguage = qwikSerialized(() => import("../components/icons/IconLanguage"));
 const IconVision = qwikSerialized(() => import("../components/icons/IconVision"));
@@ -50,27 +51,22 @@ export default component$(() => {
               icon: IconCode,
           },
           {
-            title: "System Integrations",
+            title: "System Integration & Automation",
             description:
-              "Our team helps integrate AI solutions with existing systems, ensuring seamless data flow and maximum efficiency.",      
+              "Maximize efficiency with Robotic Process Automation and integrating equipment to existing systems.",
               icon: IconApps,
-          },
-          {
-            title: "Robotic Process Automation",
-            description:
-              "We automate repetitive tasks and processes, freeing up resources for more strategic and creative work.",      
-          },
-          {
-            title: "Test Automation",
-            description:
-              "Our experts develop and implement automated testing solutions to ensure high-quality software and reduce testing time.",      
-              icon: IconRocket,
           },          
+          {
+            title: "Technical Writing and Documentation",
+            description:
+              "Communicate complex ideas, develop compliant policies and boost productivity with codebase documentation.",      
+              icon: IconDocument,
+          },                              
           {
             title: "Training and Development",
             description:
-              "Our team provides expert instruction, course design, and workshops to help your team upskill and reskill in AI and signal processing.",      
-            icon: IconBulb
+              "Upskill and reskill your team with expert instruction, course design, and workshops in AI, Robotics, and emerging technologies.",
+              icon: IconBulb
           },
         ]}
       />
