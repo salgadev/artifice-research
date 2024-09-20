@@ -13,7 +13,7 @@ export default (props: ItemProps) => {
       class={`icon icon-tabler ${className || "w-5 h-5"}`}
       stroke="currentColor"
       stroke-miterlimit="10"
-      stroke-width="2.4"
+      stroke-width="2"
       fill="none"
   >    
     <polyline class="cls-1" points="1 7 1 1 7 1" />
