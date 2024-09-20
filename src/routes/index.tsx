@@ -15,11 +15,8 @@ const IconCode = qwikSerialized(() => import("../components/icons/IconCode"));
 const IconLanguage = qwikSerialized(() => import("../components/icons/IconLanguage"));
 const IconVision = qwikSerialized(() => import("../components/icons/IconVision"));
 const IconApps = qwikSerialized(() => import("../components/icons/IconApps"));
-const IconRocket = qwikSerialized(() => import("../components/icons/IconRocket"));
 const IconBulb = qwikSerialized(() => import("../components/icons/IconBulb"));
 
-// const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
-// const IconBrandGoogle = qwikSerialized(() => import("../components/icons/IconBrandGoogle"));
 
 import { SITE } from "~/config.mjs";
 
@@ -35,7 +32,7 @@ export default component$(() => {
           {
             title: "Image Recognition Models",
             description:
-              "Streamline quality control by automatically detecting anomalies or manufacturing defects with your very own Computer Vision system.",      
+              "Transform quality control by automatically detecting anomalies or manufacturing defects with your very own Computer Vision system.",      
               icon: IconVision,
           },
           {
@@ -47,25 +44,25 @@ export default component$(() => {
           {
             title: "Software Maintenance",
             description:
-              "From Issue triage and testing to Root Cause Analysis, Bug Fixing and Regression Test Automation.",
+              "Ensure seamless software performance: expert triage, testing, and automation services to identify and resolve issues quickly.",
               icon: IconCode,
           },
           {
             title: "System Integration & Automation",
             description:
-              "Maximize efficiency with Robotic Process Automation and integrating equipment to existing systems.",
+              "Maximize operational efficiency with Robotic Process Automation and integrating equipment to existing systems.",
               icon: IconApps,
           },          
           {
             title: "Technical Writing and Documentation",
             description:
-              "Communicate complex ideas, develop compliant policies and boost productivity with codebase documentation.",      
+              "Communicate complex ideas, establish compliant policies and document codebases to optimize collaboartion.",
               icon: IconDocument,
           },                              
           {
             title: "Training and Development",
             description:
-              "Upskill and reskill your team with expert instruction, course design, and workshops in AI, Robotics, and emerging technologies.",
+              "Keep up with the latest innovations by upskilling your team with expert-led training in emerging technologies or create customized learning plans.",
               icon: IconBulb
           },
         ]}
