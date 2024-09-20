@@ -9,13 +9,16 @@ import Stats from "~/components/widgets/Stats";
 import CallToAction from "~/components/widgets/CallToAction";
 
 import { qwikSerialized } from "~/utils/qwikSerialized";
- 
+
+const IconCode = qwikSerialized(() => import("../components/icons/IconCode"));
+const IconLanguage = qwikSerialized(() => import("../components/icons/IconLanguage"));
 const IconVision = qwikSerialized(() => import("../components/icons/IconVision"));
-const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
 const IconApps = qwikSerialized(() => import("../components/icons/IconApps"));
 const IconRocket = qwikSerialized(() => import("../components/icons/IconRocket"));
-const IconBrandGoogle = qwikSerialized(() => import("../components/icons/IconBrandGoogle"));
 const IconBulb = qwikSerialized(() => import("../components/icons/IconBulb"));
+
+// const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
+// const IconBrandGoogle = qwikSerialized(() => import("../components/icons/IconBrandGoogle"));
 
 import { SITE } from "~/config.mjs";
 
@@ -35,10 +38,16 @@ export default component$(() => {
               icon: IconVision,
           },
           {
-            title: "Custom AI Solutions",
+            title: "Natural Language Processing",
             description:
-              "Tailor-made Artificial Intelligence solutions to drive business success, leveraging our expertise in computer vision, natural language processing, and audio signal processing.",      
-              icon: IconBrandTailwind,
+              "Retrieve information from extensive knowledge bases or navigate regulation requirements with ease via Large Language Models.",
+              icon: IconLanguage,
+          },
+          {
+            title: "Software Maintenance",
+            description:
+              "From Issue triage and testing to Root Cause Analysis, Bug Fixing and Regression Test Automation.",
+              icon: IconCode,
           },
           {
             title: "System Integrations",
@@ -56,13 +65,7 @@ export default component$(() => {
             description:
               "Our experts develop and implement automated testing solutions to ensure high-quality software and reduce testing time.",      
               icon: IconRocket,
-          },
-          {
-            title: "Software Development",
-            description:
-              "We design, develop, and deploy custom software solutions that meet your unique business needs.",
-              icon: IconBrandGoogle,
-          },
+          },          
           {
             title: "Training and Development",
             description:
