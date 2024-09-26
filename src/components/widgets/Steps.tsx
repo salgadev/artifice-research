@@ -7,28 +7,28 @@ const sideImg =
 
 export default component$(() => {
   const stepsData = {
-    title: "Sed ac magna sit amet risus tristique interdum. hac.",
+    title: "Connect with our experts and chart a course to your success!",
     items: [
       {
-        title: "Step 1",
+        title: "Initial consultation",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.",
+          "Email us and book a meeting through our contact page. Tell us about your business or idea and discuss your project goals.",
         icon: IconStar,
       },
       {
-        title: "Step 2",
+        title: "Define Scope of Work and Resources",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.",
+          "Establish stakeholders, resources needed and project timelines. We'll help you break down your milestones into deliverables and put together a roadmap.",
         icon: IconStar,
       },
       {
-        title: "Step 3",
+        title: "Receive a Customized Proposal ",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.",
+          "Containing recommended solutions and implementation strategies, timelines and payment options.",
         icon: IconStar,
       },
       {
-        title: "Ready!",
+        title: "Start Work!",
         icon: IconStar,
       },
     ],
