@@ -6,6 +6,8 @@ import ToggleTheme from "~/components/common/ToggleTheme";
 import ToggleMenu from "~/components/common/ToggleMenu";
 import IconChevronDown from "../icons/IconChevronDown";
 
+import { OnboardingForm } from "~/components/widgets/constants";
+
 export default component$(() => {
   const store = useStore({
     isScrolling: false,
@@ -83,10 +85,11 @@ export default component$(() => {
             </div>
             <span class="ml-4 rtl:ml-0 rtl:mr-4">
               <a
-                href="mailto:info@theartifice.ca"
+                href={OnboardingForm}
                 class="btn btn-primary ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto"
+                target="_blank"
               >
-                Contact Us
+                Get Started
               </a>
             </span>
           </div>

@@ -2,35 +2,21 @@ import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 
 import IconTwitter from "~/components/icons/IconTwitter"
-//import IconInstagram from "~/components/icons/IconInstagram"
-//import IconFacebook from "~/components/icons/IconFacebook"
 import IconGithub from "~/components/icons/IconGithub"
+
+import { OnboardingForm, EmailLink } from "~/components/widgets/constants";
 
 export default component$(() => {
   const links = [
     {
-      title: "Product",
+      title: "Company",
       items: [
-        { title: "Features", href: "#" },
-        { title: "Security", href: "#" },
-        { title: "Team", href: "#" },
-        { title: "Enterprise", href: "#" },
-        { title: "Customer stories", href: "#" },
-        { title: "Pricing", href: "#" },
-        { title: "Resources", href: "#" },
+        { title: "About", href: "#" },            
+        { title: "Onboarding Form", href: OnboardingForm },        
+        { title: "Contact", href: EmailLink },        
       ],
     },
-    {
-      title: "Platform",
-      items: [
-        { title: "Developer API", href: "#" },
-        { title: "Partners", href: "#" },
-        { title: "Atom", href: "#" },
-        { title: "Electron", href: "#" },
-        { title: "Qwind Desktop", href: "#" },
-      ],
-    },
-    {
+    /*{
       title: "Support",
       items: [
         { title: "Docs", href: "#" },
@@ -39,25 +25,12 @@ export default component$(() => {
         { title: "Skills", href: "#" },
         { title: "Status", href: "#" },
       ],
-    },
-    {
-      title: "Company",
-      items: [
-        { title: "About", href: "#" },
-        { title: "Blog", href: "#" },
-        { title: "Careers", href: "#" },
-        { title: "Press", href: "#" },
-        { title: "Inclusion", href: "#" },
-        { title: "Social Impact", href: "#" },
-        { title: "Shop", href: "#" },
-      ],
-    },
+    },    
+    */
   ];
 
   const social = [
     { label: "Twitter", icon: IconTwitter, href: "#" },
-//    { label: "Instagram", icon: IconInstagram, href: "#" },
-//    { label: "Facebook", icon: IconFacebook, href: "#" },
     {
       label: "Github",
       icon: IconGithub,
@@ -72,12 +45,11 @@ export default component$(() => {
           <div class="col-span-12 lg:col-span-4 pr-8">
             <div class="mb-2">
               <Link class="inline-block font-bold text-xl" href={"/"}>
-                Qwind
+                Artifice
               </Link>
             </div>
             <div class="text-sm text-gray-600 dark:text-gray-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi
-              risus tempus nulla
+              Enabling Advanced Manufacturing with custom Mechatronics solutions.
             </div>
           </div>
           {links.map(({ title, items }, index) => (
@@ -118,7 +90,7 @@ export default component$(() => {
 
           <div class="text-sm text-gray-700 mr-4 dark:text-slate-400">
             <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
-            Made by{" "}
+            Inspired by{" "}
             <a class="text-secondary-800 underline dark:text-gray-200" href="https://onwidget.com/">
               {" "}
               onWidget
