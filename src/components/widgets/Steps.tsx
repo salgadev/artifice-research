@@ -3,32 +3,33 @@ import { Image } from "@unpic/qwik";
 
 import IconStar from "~/components/icons/IconStar";
 const sideImg =
-  "https://images.unsplash.com/photo-1583195648430-18b2681307e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80";
+"https://images.pexels.com/photos/3183148/pexels-photo-3183148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 
 export default component$(() => {
   const stepsData = {
-    title: "Connect with our experts and chart a course to your success!",
+    title: "Connect to chart the course to your success!",
     items: [
       {
-        title: "Initial consultation",
+        title: "Fill our Client Onboarding Form",
+        description: (          
+            "Share your business or idea details with us through our customized online form."
+        ),
+        icon: IconStar,    
+      },
+      {
+        title: "Consultation Meeting",
         description:
-          "Email us and book a meeting through our contact page. Tell us about your business or idea and discuss your project goals.",
+          "Meet with our experts to discuss your project goals, milestones and resources.",
         icon: IconStar,
       },
       {
-        title: "Define Scope of Work and Resources",
+        title: "Receive a Written Proposal",
         description:
-          "Establish stakeholders, resources needed and project timelines. We'll help you break down your milestones into deliverables and put together a roadmap.",
+          "Get a customized proposal outlining our recommended solutions, implementation strategies, timelines, and payment options.",
         icon: IconStar,
       },
       {
-        title: "Receive a Customized Proposal ",
-        description:
-          "Containing recommended solutions and implementation strategies, timelines and payment options.",
-        icon: IconStar,
-      },
-      {
-        title: "Start Work!",
+        title: "Get Started!",
         icon: IconStar,
       },
     ],

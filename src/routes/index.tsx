@@ -5,7 +5,6 @@ import Hero from "~/components/widgets/Hero";
 import Features from "~/components/widgets/Features";
 import Steps from "~/components/widgets/Steps";
 import FAQs from "~/components/widgets/FAQs";
-import Stats from "~/components/widgets/Stats";
 import CallToAction from "~/components/widgets/CallToAction";
 
 import { qwikSerialized } from "~/utils/qwikSerialized";
@@ -70,42 +69,41 @@ export default component$(() => {
       <Steps />
       <FAQs
         title="Frequently Asked Questions"
-        subtitle="Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar."
+        subtitle="Get answers to common questions about our technology solutions and consulting services."
         highlight="FAQs"
         items={[
           {
-            title: "What do I need to start?",
+            title: "What services does your consulting firm offer?",
             description:
-              "Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.",
+              "We provide custom R&D solutions in Mechatronics, Software Development, and Artificial Intelligence. Our services include system integration, prototype development, algorithm design, and software optimization, tailored to each client's specific needs.",
           },
           {
-            title: "How to install the Qwik + Tailwind CSS template?",
+            title: "How do you ensure the confidentiality of our proprietary information?",
             description:
-              "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.",
+              "We implement strict non-disclosure agreements, robust data security measures, secure cloud infrastructure, and encrypted communication channels. These safeguards ensure your proprietary information remains confidential throughout the entire project lifecycle.",
           },
           {
-            title: "What's something that you don't understand?",
+            title: "What is your team's expertise in Mechatronics and AI?",
             description:
-              "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
+              "Our team consists of professionals with advanced degrees and industry experience in Mechanical Engineering, Electrical Engineering, and Computer Science. We've contributed to cutting-edge research in robotics, machine learning, and autonomous systems.",
           },
           {
-            title: "What's an example of when you changed your mind?",
+            title: "How do you handle project scalability and long-term support?",
             description:
-              "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
+              "We design modular solutions for easy expansion. Our long-term support packages include maintenance, updates, and knowledge transfer. This approach ensures your team can effectively manage and build upon our solutions as your needs evolve.",
           },
           {
-            title: "What is something that you would like to try again?",
+            title: "Can you work with our existing systems and technologies?",
             description:
-              "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
+              "Yes, we integrate with various platforms and technologies. We begin each project by assessing your existing infrastructure to ensure seamless integration and optimal performance of our custom solutions with your current systems.",
           },
           {
-            title: "If you could only ask one question to each person you meet, what would that question be?",
+            title: "What is your approach to project management and client communication?",
             description:
-              "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
+              "We use agile project management methodology, assigning a dedicated project manager to each client. Regular progress reports, milestone reviews, and interactive demonstrations keep you informed and involved throughout the development process.",
           },
         ]}
       />
-      <Stats />
       <CallToAction />
     </>
   );
