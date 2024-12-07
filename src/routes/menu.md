@@ -1,4 +1,8 @@
 # Menu
 
-- [Home](#)
-- [Contact](mailto:info@theartifice.ca)
+## Pages
+
+- [Services](#)
+- [Porfolio](#)
+- [About us](#)
+## [Blog](/blog)
